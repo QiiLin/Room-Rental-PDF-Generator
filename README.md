@@ -1,7 +1,8 @@
 # Room-Rental-PDF-Generator
 It is just a simple rental contract pdf generator for my own usage.
 
-Dependency: mailmerge and comtypes. You can just install this through pip
+#### Dependency: 
+mailmerge and comtypes. You can just install this through pip
 
 Running: `python generate_pdf.py`
 
