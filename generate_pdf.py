@@ -6,9 +6,11 @@ from tkinter import *
 
 
 def action(event):
+    ## if you have a different docx file name, you can just change it here
     with MailMerge(os.getcwd() + "\\test.docx") as doc:
-    ## print out all field that is ready to merge
+        ## print out all field that is ready to merge
         print (doc.get_merge_fields())
+        ## all the merge_field are being replace in here
         doc.merge(StartYear= StartYear_v.get(),
         Amount= Amount_v.get(),
         RentalInfo=RentalInfo_v.get(),
